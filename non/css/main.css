@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+}
+.footer {
+    padding: 20px 0;
+    margin-top: 20px;
+    background: url("../img/mosaic.jpg");
+    color: #FFF;
+    overflow:hidden;
+}
+body{
+    background: url("../img/mosaic-light.png");
+}
+.navbar{
+    border-radius: 0%;
+    background-color: #F8F8F8;
+    border-bottom: 1px solid #E7E7E7;
+    margin-bottom: 0px;
+}
+#myNavbar{
+    padding: 0px;
+}
+#myNavbar ul{
+    padding: 0px;
+}
+.dropdown-item{
+    color: #777777;
+}
+#dropdownPerfil{
+    margin-left: 15px;
+    text-align: right;
+}
+.navbar-nav {
+    margin: 0px -15px;
+    list-style-type: none;
+    float: right;
+}
+.navbar-brand{
+    color: #777777;
+}
+.navbar-toggler{
+
+    background-color:#F8F8F8;
+}
+#pagination2 li a{
+    display: block;
+    width: 15em;
+    margin: 0px;
+    border-radius: 0px;
+}
+#pagination2 li a+a{
+    border-top:none;
+}
+.main{
+    margin-top: 20px;
+}
+
+.anuncioIndex{
+    overflow: hidden;
+    min-height: 284px;
+}
+
+.anuncioIndex h4{
+    display: block; /* or inline-block */
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 3em;
+    line-height: 1em;
+}
+.anuncioIndex p{
+    display: block; /* or inline-block */
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 3em;
+    line-height: 1em;
+}
+
+/*------Carousel------*/
+.indexContainer{
+    margin-top: 0px;
+}
+.bs-example{
+    margin-top: 0px;
+	padding:0px 0px;
+}
+#carouselExampleControls{
+    margin-top: 0px;
+}
+.fotosCarousel{
+    margin: 0 auto; /* Align slide image horizontally center */
+    min-height: 250px;
+    max-height: 250px;
+    width: 70%;
+    margin-top: -20px;
+}
+.fotosCarousel2{
+    margin: 0 auto; /* Align slide image horizontally center */
+    min-height: 500px;
+    max-height: 500px;
+    width: 70%;
+    margin-top: -20px;
+}
+.carousel-control-next{
+    background-color:lightgray ;
+}
+.carousel-control-prev{
+    background-color:lightgray ;
+}
+
+/*FLEX----NO FUNCIONA*/
+/*
+.box {
+    display: flex;
+    flex-direction: column;
+}
+.header .footer{
+    flex-grow: 1;
+}
+.content {
+    flex-grow: 5;
+}*/
+
+/*********/
+.listaAnuncios{
+    list-style-type: none;
+}
+#containerTablaAnuncios{
+    padding-bottom: 30px;
+}
+.lateral{
+	padding:15px;
+}
+
+/*MEDIA*/
+/*XS*/
+@media (max-width:767px) {
+    .navbar ul {
+        float: left;
+        display: block;
+        margin: 0px -15px;
+        padding-bottom: 15px;
+        width: 100%;
+    }
+    .navbar ul li {
+        display: block;
+        width: 100%;
+    }
+    #dropdownPerfil{
+        text-align: left;
+    }
+
+    #dropdownDivPerfil{
+        background-color:#F8F8F8;
+        border: none;
+        box-shadow: none;
+    }
+    #quienesSomos{
+        text-align: left;
+    }
+    .anuncioIndex{
+        overflow: hidden;
+        min-height: 50px;
+    }
+    .anuncioIndex img{
+        margin: 0px;
+    }
+    iframe{
+        width: 400px;
+        height: 200px;
+    }
+}
+@media (min-width:768px) {
+    .anuncioIndex{
+        overflow: hidden;
+        min-height: 340px;
+    }
+    iframe{
+        width: 700px;
+        height: 300px;
+    }
+}
+@media (min-width:1200px) {
+    .anuncioIndex{
+        overflow: hidden;
+        min-height: 380px;
+    }
+}
+#paginasAnuncios{
+    margin: 0px auto;
+}
+
+#linkSiguiente{
+    text-align: right;
+}
+
+/*PARA PAGINA 'QUIENES SOMOS'*/
+.divLogo{
+    margin-right: 20px;
+}
+.tx {
+    line-height: 1.8em;
+}
+#nc {
+    font-size: 1.7em;
+}
+#qs {
+    font-size: 1.2em;
+    text-align: justify;
+}
