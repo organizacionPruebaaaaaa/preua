@@ -1,0 +1,13 @@
+.tx {
+	line-height: 1.8em;
+}
+
+#nc {
+	font-size: 1.7em;
+}
+
+#qs {
+	font-size: 1.2em;
+	text-align: justify;
+}
+
