@@ -1,0 +1,39 @@
+body {
+	text-align: center;
+}
+
+.nav, .jumbotron, .seccion, .articulo {
+	border: 5px solid #FFF;
+}
+
+/*--NAV--*/
+
+.nav {
+	background: #90C3D4;
+}
+
+.jumbotron {
+	background: #EB7738;
+}
+
+/*--POST--*/
+
+.seccion {
+	background: #CC70A4;
+}
+
+.articulo {
+	background: #05EB68;
+}
+
+.paginacion {
+	background: #E6E347;
+}
+
+.aside {
+	background: #DE4516;
+}
+
+.footer {
+	background: #C1C7C9;
+}
